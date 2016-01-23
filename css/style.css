@@ -1,0 +1,106 @@
+/* ------------------------------------------------------------- */
+/* Basic Setup */
+/* ------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------
+
+colors:
+
+Defaults:
+body-background: #fff (white)
+text color: #404040 (dark grey)
+
+Palette:
+
+------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #404040;
+    font-family: 'Open Sans Condensed', 'Poiret One', 'Coming Soon', 'Handlee', 'ariel', 'sans-serif';
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------------------------------- */
+/* Header */
+/* ------------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(images/stock-photo-old-apartment-in-hong-kong-276321731.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+.hero-box {
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+    border-radius: 5px;
+    top: 250px;
+    left: 100px;
+    width: 700px;
+    box-shadow: 2px 
+}
+
+.hero-box p {
+    color: #404040;
+    font-family: 'Open Sans Condensed';
+    padding: 10px 20px;
+    font-size: 200%;
+    font-weight: 100;
+    text-transform: capitalize
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+}
+
+a:hover {
+    
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    border-radius: 20px;
+    font-family: 'Poiret One';
+    border: 2px solid #404040;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0px 0px 20px 20px;
+    font-size: 150%;
+}
+
+.btn-donate {
+    background: linear-gradient(rgba(137, 196, 244, 0.8), rgba(137, 196, 244, 0.8));
+    color: #fff;
+}
+
+.btn-donate:hover {
+    background: linear-gradient(rgba(137, 196, 244, 0.8), rgba(137, 196, 244, 0.8));
+    color: #000;
+}
+
+.btn-know-more:hover {
+    color: #000;
+}
+
